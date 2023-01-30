@@ -17,5 +17,9 @@ public class SplashScreen extends BaseScreen{
         return versionTextView.getText();
     }
 
+    public AuthenticationScreen gotoAuthenticationScreen(){
+        return new AuthenticationScreen(driver);
+    }
+
     //com.sheygam.contactapp:id/version_text
 }
